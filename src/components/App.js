@@ -4,7 +4,7 @@ import Header from './Header'
 import Movie from './Movie'
 import Search from './Search'
 
-const MOVIE_API_URL = "http://www.omdbapi.com/?s=man&apikey=424d521e"
+const MOVIE_API_URL = "https://www.omdbapi.com/?s=man&apikey=424d521e"
 
 const App = () => {
 
@@ -26,7 +26,7 @@ const App = () => {
     setLoading(true)
     setErrorMessage(null)
 
-    fetch(`http://www.omdbapi.com/?s=${searchValue}&apikey=424d521e`)
+    fetch(`https://www.omdbapi.com/?s=${searchValue}&apikey=424d521e`)
       .then(response => response.json())
       .then(jsonResponse => {
         if (jsonResponse.Response === "True") {
