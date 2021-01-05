@@ -2,7 +2,7 @@
   "name": "hooked-movie-search",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://shahjuhi1108.github.io/MovieSearchSiteReact/",
+  "homepage": "https://shahjuhi1108.github.io/MovieSearchSiteReact/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
